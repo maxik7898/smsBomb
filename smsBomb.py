@@ -17,10 +17,7 @@ def main():
     start = str(input("Введите [1] для запуска: "))
     while True:
         if start == "1":
-            print('Капча: Путин хуйло') # если ты залез это убрать то иди НАХУЙ!
-            caphaa = str(input("Введите капчу: "))
-
-        if start == "путин хуйло":
+            
 
             phone = input(colored('Enter your phone number>>: ', 'cyan'))
             countT = input(colored('Enter threading>>: ', 'blue'))
